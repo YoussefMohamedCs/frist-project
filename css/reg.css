@@ -71,7 +71,12 @@ animation-iteration-count:  infinite;
     animation-delay: 1s;
     
     }
-
+@media  screen and (max-width:600px) {
+    section{
+        height: 120vh;
+    }
+    
+}
 
 
 @keyframes an-left{
